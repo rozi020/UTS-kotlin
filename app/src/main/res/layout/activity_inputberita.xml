@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".Inputberita">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textColor="#000"
+        android:layout_marginBottom="30dp"
+        android:text="Menambah Berita" />
+
+    <EditText
+        android:id="@+id/judul_berita"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Judul berita" />
+
+    <EditText
+        android:id="@+id/waktu_berita"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Waktu Berita" />
+
+    <EditText
+        android:id="@+id/penulis_berita"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Penulis Berita" />
+
+    <EditText
+        android:id="@+id/isi_berita"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Isi Berita" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Insert"
+        android:id="@+id/btn_tambah"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Kembali"
+        android:layout_marginTop="10dp"
+        android:id="@+id/btn_kembali"/>
+
+</LinearLayout>
